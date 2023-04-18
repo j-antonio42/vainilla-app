@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F5F5DC;
+}
+
+.title {
+  text-align: center;
+  color: #008080;
+  margin-top: 4rem;
+}
+
+.college-form {
+  margin: 0 auto;
+  width: 55%;
+  padding: 1em;
+  background-color: #008080;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px #777;
+          box-shadow: 0 0 10px #777;
+}
+
+.college-form label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  color: #F5F5DC;
+}
+
+.college-form input {
+  display: block;
+  width: 98%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  border: none;
+}
+
+.college-form button {
+  background-color: #fff;
+  color: #008080;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.college-form button:hover {
+  background-color: #008080;
+  color: #fff;
+  cursor: pointer;
+}
+
+.table-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+}
+
+.table-container .table {
+  width: 60%;
+  border-collapse: collapse;
+  background-color: #008080;
+  -webkit-box-shadow: 0 0 10px #777;
+          box-shadow: 0 0 10px #777;
+  color: #F5F5DC;
+}
+
+.table-container .table .tablefield {
+  border: 2px solid #F5F5DC;
+  padding: 1em;
+}
+
+.table-container .table .tableData {
+  background-color: white;
+  color: #008080;
+  border: 2px solid #F5F5DC;
+  padding: 1em;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .college-form {
+    width: 80%;
+  }
+  .table-container .table {
+    width: 90%;
+    color: #F5F5DC;
+    font-size: 0.8rem;
+  }
+  .table-container .table .tablefield {
+    padding: 0.5em;
+  }
+  .table-container .table .tableData {
+    padding: 0.5em;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
